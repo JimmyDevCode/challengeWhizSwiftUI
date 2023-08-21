@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6D150F27-7266-46C7-8EF3-BA5948EDB808"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA767B83-133E-409E-92BA-650620F8DD9D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "challengeWhiz/MVVM/Utilities/API/Networking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "fetchProductos(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "935A18D1-602F-452D-A752-6742E8D83E62"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "challengeWhiz/MVVM/Utilities/API/Networking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "fetchProductos(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "935A18D1-602F-452D-A752-6742E8D83E62 - 3ea21551c91d7aa5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "challengeWhiz.NetworkingManager.fetchProductos(completion: (Swift.Result&lt;challengeWhiz.Respuesta, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "challengeWhiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jimmyronaldomacedopizango/Documents/JIMMY%20IOS%205/challengeWhiz/challengeWhiz/MVVM/Utilities/API/Networking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "935A18D1-602F-452D-A752-6742E8D83E62 - 10aea057966798f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in challengeWhiz.NetworkingManager.fetchProductos(completion: (Swift.Result&lt;challengeWhiz.Respuesta, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "challengeWhiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jimmyronaldomacedopizango/Documents/JIMMY%20IOS%205/challengeWhiz/challengeWhiz/MVVM/Utilities/API/Networking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15BDEA8D-5993-4603-8D83-C3F4DAB62D79"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "challengeWhiz/MVVM/ModelViewModel/ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "fetchProducts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
