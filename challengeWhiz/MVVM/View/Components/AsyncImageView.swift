@@ -31,7 +31,6 @@ struct AsyncImageView: View {
                 image
                     .resizable()
                     .scaledToFit()
-                    .aspectRatio(contentMode: .fit)
                     .frame(width: size?.width, height: size?.height)
             case .failure(_):
                 failureView()
@@ -50,7 +49,6 @@ struct AsyncImageView: View {
         Image(NameImageDefault.placeholder.rawValue)
             .resizable()
             .scaledToFit()
-            .aspectRatio(contentMode: .fit)
             .frame(width: size?.width, height: size?.height)
     }
     
@@ -58,7 +56,6 @@ struct AsyncImageView: View {
         Image(NameImageDefault.empty.rawValue)
             .resizable()
             .scaledToFit()
-            .aspectRatio(contentMode: .fit)
             .frame(width: size?.width, height: size?.height)
     }
 }

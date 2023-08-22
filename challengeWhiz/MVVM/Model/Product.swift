@@ -15,9 +15,8 @@ struct Respuesta: Codable {
     let advertencia: String
     let resultado: Resultado
 }
-// MARK: - Respuesta
+// MARK: - Resultado
 struct Resultado: Codable {
-
     let categoria: String
     let productos: [Producto]
 }

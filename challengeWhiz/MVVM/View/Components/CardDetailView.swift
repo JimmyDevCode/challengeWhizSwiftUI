@@ -27,7 +27,7 @@ struct CardDetailView: View {
             }
             TabView(selection: $index) {
                 ForEach(Array(producto.urlImagenes.enumerated()), id: \.element) { (index, imageName) in
-                    AsyncImageView(url: URL(string: imageName), size: CGSize(width: 350, height: 550))
+                    AsyncImageView(url: URL(string: imageName))
                         .tag(index)
                 }
             }

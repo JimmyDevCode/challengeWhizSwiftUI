@@ -6,12 +6,12 @@
 //
 
 import Foundation
+//VAR VIEWMODEL = VIEWMODEL()
 
 class ViewModel: ObservableObject{
     
     @Published var productos = [ProductoRespuesta]()
     @Published var isFetching: Bool = false
-    
     
     private let repositoryAPI: RepositoryAPIProtocol
     init(){

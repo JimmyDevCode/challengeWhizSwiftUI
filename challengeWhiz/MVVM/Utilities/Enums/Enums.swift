@@ -7,16 +7,6 @@
 
 import Foundation
 
-// MARK: - ColorPrimary
-
-/*public enum PrimaryColor: Int {
-    case r = 219
-    case g = 40
-    case b = 27
-    case opacity = 1.0
-}
-*/
-
 // MARK: - APIError Enum
 enum APIError: Error {
     case invalidURL

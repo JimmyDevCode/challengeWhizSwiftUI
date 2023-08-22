@@ -21,4 +21,5 @@ class RepositoryAPI: RepositoryAPIProtocol{
     func fetchProductos(completion: @escaping (Result<Respuesta, Error>) -> Void) {
         networkingManagerProvider.fetchProductos(completion: completion)
     }
+
 }

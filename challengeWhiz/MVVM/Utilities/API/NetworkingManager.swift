@@ -22,8 +22,8 @@ class NetworkingManager: NetworkingManagerProvider {
             return
         }
 
-        URLSession.shared.dataTask(with: url) { [self] data, response, error in
-            self.handleDataTaskResult(data: data, response: response, error: error, completion: completion)
+        URLSession.shared.dataTask(with: url) { [weak self] data, response, error in
+            self?.handleDataTaskResult(data: data, response: response, error: error, completion: completion)
         }.resume()
     }
 
@@ -46,7 +46,7 @@ class NetworkingManager: NetworkingManagerProvider {
                 completion(.failure(APIError.invalidStatusCode(httpResponse.statusCode)))
                 return
             }
-
+        
             guard let data = data else {
                 completion(.failure(APIError.emptyResponse))
                 return
